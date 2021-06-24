@@ -1,0 +1,67 @@
+body {
+    background-color: lightcoral;
+    width: 1200px;
+    height: 0px;
+}
+
+.div {
+    margin: auto;
+    font-family: "Calibri Light";
+    justify-content: normal;
+    border: 4px solid black;
+    width: 90%;
+    right: 220px;
+    margin: auto;
+}
+
+.topnav {
+    width: 100%;
+    background-color: lightblue;
+    overflow: auto;
+    border: 4px solid black;
+}
+
+.topnav a {
+    float: left;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+}
+
+.topnav a:hover {
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+h1 {
+    color: white;
+    right: 70px;
+    font-family: cursive;
+}
+
+form {
+    margin: auto;
+    font-family: "Calibri Light";
+    justify-content: normal;
+    border: 4px solid black;
+    width: 90%;
+    column-span: initial;
+    right: 220px;
+    background-color: lightblue;
+    overflow: auto;
+
+}
+
+submit {
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+p, h5, h3 {
+    color: white;
+    right: 70px;
+    font-family: "Calibri Light";
+}

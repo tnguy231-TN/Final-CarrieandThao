@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 18, 2021, 12:39:07 PM
+    Author     : THAO
+*/
+body {
+    background-color: lightcoral;
+    width: 1200px;
+    height: 0px;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    font-weight: bolder;
+    width: 100px; 
+}
+
+/* div class tag info*/
+.div {
+    margin: auto;
+    font-family: "Calibri Light";
+    justify-content: normal;
+    border: 4px solid black;
+    width: 90%;
+    right: 220px;
+}
+/* navigation bar tag info*/
+.topnav {
+    width: 100%;
+    background-color: lightblue;
+    overflow: auto;
+    border: 4px solid black;
+}
+/* navigation bar a info*/
+.topnav a {
+    float: left;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+}
+/* navigation bar tag hovering over info*/
+.topnav a:hover {
+    background-color: lightgrey;
+    font-weight: bold;
+}
+/* p and h5 info*/
+p, h5{
+    color: white;
+    right: 70px;
+    font-family: "Calibri Light";
+    text-align: center;
+    font: 12px;
+}
+/* h1 info*/
+h1 {
+    color: white;
+    right: 70px;
+    font-family: cursive;
+}
+/* form info*/
+form {
+    margin: auto;
+    font-family: "Calibri Light";
+    justify-content: normal;
+    border: 4px solid black;
+    width: 90%;
+    right: 220px;
+    background-color: lightblue;
+    overflow: auto;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+}
+/* submit info*/
+submit {
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="scheduleColor.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="schedule.js"></script>
+</head>
+<body>
+<!--Schedule session header-->
+<h1>Schedule a session!</h1>
+    <!--navigation bar and tabs-->
+    <div class="topnav">
+        <a class="active" href="homepage.jsp">Home Page</a>
+        <a href="aboutme.jsp">About Me</a>
+        <a href="prices.jsp">Prices</a>
+        <a href="photos.jsp">Portfolio</a>
+        <a href="contact.jsp">Contact Me</a>
+    </div>
+
+<br>
+<br>
+<p>I will email the inputted email address to set your preferred time for a session. <br> If
+    I am unable to do the session during your preferred time, I will email and we can discuss a better time for us
+    both!
+</p>
+<br><br>
+<!--creating form to plan a day to schedule a session-->
+<form>
+    <!--inputs are required to fill out-->
+    <h3>Full Name:<input type="text" id="name" required></h3><br>
+    <h3>Email    :<input type="email" id="email" required></h3><br>
+    <h3>Date     : <input type="text" id="datepicker"></h3>
+    <input type="submit" value="Submit" name="Submit">
+</form>
+   
+<br>
+</body>
+<footer>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h5>All images and information subject to Kristi Craven.</h5>
+    <h5>&copy; Copyright 2020 HTML</h5>
+</footer>
+</html>

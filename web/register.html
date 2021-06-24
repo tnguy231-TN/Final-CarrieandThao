@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>REGISTRATION FORM</title>
+    <!-- linking css file with html -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<h1><strong>Registration Form!</strong></h1>
+
+<body>
+    <main>
+        <form action="process.jsp" method="post">
+            First name :<input type="text" name="fname" />
+            <br>
+            <br>
+            Last name  :<input type="text" name="lname" />
+            <br>
+            <br>
+            Email Address:<input type="text" name="email" />
+            <br>
+            <br>
+            User name  :<input type="text" name="userid" />
+            <br>
+            <br>
+            Password   :<input type="password" name="password" />
+            <br>
+            <br>
+            Role    :
+            <select name="role" id="role">
+                <option value="op">(Please select your role)</option>
+                <option value="admin">Admin</option>
+                <option value="customer">Customer</option>
+            </select><br>
+            <input type="submit" value="Register"/>
+        </form>
+    </main>   
+</body>
+<footer>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h5>All images and information subject to Kristi Craven.</h5>
+    <h5>&copy; Copyright 2020 HTML</h5>
+</footer>
+</html>
